@@ -16,4 +16,14 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '10.0'
   spec.source_files = 'Sources/**/*'
   spec.swift_version = '5.1'
+
+  spec.weak_framework = "XCTest"
+  spec.pod_target_xcconfig = {
+    'APPLICATION_EXTENSION_API_ONLY' => 'YES',
+    'DEFINES_MODULE' => 'YES',
+    'ENABLE_BITCODE' => 'NO',
+    'ENABLE_TESTING_SEARCH_PATHS' => 'YES',
+    'OTHER_LDFLAGS' => '$(inherited) -weak-lswiftXCTest -Xlinker -no_application_extension',
+    'OTHER_SWIFT_FLAGS' => '$(inherited) -suppress-warnings',
+  }
 end
