@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name             = 'Mocker'
-  spec.version          = '2.3.0'
+  spec.version          = '2.5.3'
   spec.summary          = 'Mock data requests using a custom URLProtocol and run them offline.'
   spec.description      = 'Mocker is a library written in Swift which makes it possible to mock data requests using a custom URLProtocol and run them offline.'
 
@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
   spec.source_files = 'Sources/**/*'
   spec.swift_version = '5.1'
 
-  spec.weak_framework = "XCTest"
+  spec.weak_framework = 'XCTest'
   spec.pod_target_xcconfig = {
     'APPLICATION_EXTENSION_API_ONLY' => 'YES',
     'DEFINES_MODULE' => 'YES',

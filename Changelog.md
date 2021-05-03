@@ -1,3 +1,25 @@
+### 2.5.3
+- Make sure file extension mocks are matching correctly ([#95](https://github.com/WeTransfer/Mocker/pull/95)) via [@AvdLee](https://github.com/AvdLee)
+- Replace occurrences of internal `.data` with `Data(contentsOf:)` ([#92](https://github.com/WeTransfer/Mocker/pull/92)) via [@rogerluan](https://github.com/rogerluan)
+- Merge release 2.5.2 into master ([#91](https://github.com/WeTransfer/Mocker/pull/91)) via [@wetransferplatform](https://github.com/wetransferplatform)
+
+### 2.5.2
+- Merge release 2.5.2 into master ([#90](https://github.com/WeTransfer/Mocker/pull/90)) via [@wetransferplatform](https://github.com/wetransferplatform)
+- Fixing usage of XCTest framework ([#89](https://github.com/WeTransfer/Mocker/pull/89)) via [@letatas](https://github.com/letatas)
+- Merge release 2.5.1 into master ([#87](https://github.com/WeTransfer/Mocker/pull/87)) via [@wetransferplatform](https://github.com/wetransferplatform)
+
+### 2.5.2
+- Fixing usage of XCTest framework ([#89](https://github.com/WeTransfer/Mocker/pull/89)) via [@letatas](https://github.com/letatas)
+- Merge release 2.5.1 into master ([#87](https://github.com/WeTransfer/Mocker/pull/87)) via [@wetransferplatform](https://github.com/wetransferplatform)
+
+### 2.5.1
+- Fix tests and make sure the new opt-in mode is working with existing logic ([#86](https://github.com/WeTransfer/Mocker/pull/86)) via [@AvdLee](https://github.com/AvdLee)
+- Merge release 2.5.0 into master ([#85](https://github.com/WeTransfer/Mocker/pull/85)) via [@wetransferplatform](https://github.com/wetransferplatform)
+
+### 2.5.0
+- Feat: Global mode to choose only to mock registered routes ([#84](https://github.com/WeTransfer/Mocker/pull/84)) via [@letatas](https://github.com/letatas)
+- Update README.md ([#74](https://github.com/WeTransfer/Mocker/pull/74)) via [@airowe](https://github.com/airowe)
+
 ### 2.3.0
 - Add XCTest extensions ([#57](https://github.com/WeTransfer/Mocker/pull/57)) via [@AvdLee](https://github.com/AvdLee)
 - Merge release 2.2.0 into master ([#55](https://github.com/WeTransfer/Mocker/pull/55)) via [@WeTransferBot](https://github.com/WeTransferBot)
